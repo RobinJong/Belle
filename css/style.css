@@ -16,11 +16,16 @@ header {
     padding: 20px;
 }
 
-header img {
+header .pfp {
     width: 200px;
     height: 200px;
     border: 15px solid #17689B;
-    border-radius: 100% 
+    border-radius: 50%;
+    background-image: url('./../img/Belle-pfp.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto;
 }
 
 header h1 {
