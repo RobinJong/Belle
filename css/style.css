@@ -66,6 +66,27 @@ header .pfp.beast {
     border-color: #C6DEF2;
 }
 
+header .pfp.potts {
+    background-image: url('./../img/mrs-potts.webp');
+    background-position: center center;
+    background-size: cover;
+    border-color: #EFBF65;
+}
+
+header .pfp.lumiere {
+    background-image: url('./../img/lumiere.webp');
+    background-position: center center;
+    background-size: cover;
+    border-color: #7e63a5;
+}
+
+header .pfp.cogsworth {
+    background-image: url('./../img/cogsworth.webp');
+    background-position: center center;
+    background-size: cover;
+    border-color: #0a4c82;
+}
+
 h1 {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
@@ -95,6 +116,16 @@ main {
 
 main img {
     max-width: 100%;
+}
+
+main .about.lumiere {
+    width: 800px;
+    height: 500px;
+    background-image: url('./../img/about-lumiere.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto;
 }
 
 
