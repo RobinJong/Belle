@@ -59,6 +59,13 @@ header .pfp {
     margin: 0 auto;
 }
 
+header .pfp.beast {
+    background-image: url('./../img/beast-adam.jpg');
+    background-position: center center;
+    background-size: cover;
+    border-color: #C6DEF2;
+}
+
 h1 {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
