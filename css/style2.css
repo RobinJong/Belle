@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 body {
-background-color: #C6DEF2;
+background-color: #f6eef6;
 font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -13,7 +13,7 @@ html, body {
 p, ul, ol {
     font-size: 16px;
     line-height: 27px;
-    color: #001e36;
+    color: #0f4669;
 }
 
 ul, ol {
@@ -22,11 +22,11 @@ ul, ol {
 }
 
 a {
-    color: #17689B;
+    color: #3c5eae;
 }
 
 a:hover {
-    color: #DD9E25;
+    color: #7e63a5;
 }
 
 a:active {
@@ -35,14 +35,14 @@ a:active {
 
 p.caption {
     font-size: 12px;
-    color: #17689B;
+    color: #7e63a5;
     font-style: oblique;
     margin: 0;
 }
 
 header { 
     text-align: center;
-    background-color: #013B69;
+    background: linear-gradient(45deg, #fca271, #efb1c2, #89b9d3);
     padding: 20px;
     margin-bottom: 45px;
 }
@@ -113,7 +113,7 @@ h1 {
   font-style: normal;
   font-size: 40px;
   margin: 10px 0 5px 0;
-  color: #C6DEF2;
+  color: #3c5eae;
 }
 
 h2 {
@@ -123,7 +123,7 @@ h2 {
   font-style: normal;
   font-size: 20px;
   margin: 25px 0;
-  color: #013B69;
+  color: #3c5eae;
 
 }
 
@@ -149,13 +149,13 @@ main .about.lumiere {
 
 
 footer {
-    background-color: #EFBF65;
+    background-color: #efb1c2;
     padding: 40px;
     text-align: center;
     margin-top: 60px;
 }
 footer p {
-    color: rgb(142, 96, 10);
+    color: #3c5eae;
 }
 footer .content {
     max-width: 800px;
@@ -163,11 +163,11 @@ footer .content {
 }
 
 footer a {
-    color: #af7813;
+    color: #0a4c82;
 }
 
 footer a:hover {
-    color: #17689B;
+    color: #7e63a5;
 }
 
 footer a:active {
