@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+background-color: #C6DEF2;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    margin: 0%;
+    padding: 0%;
+} 
+
+p, ul, ol {
+    font-size: 16px;
+    line-height: 27px;
+    color: #001e36;
+}
+
+ul, ol {
+    padding: 0;
+    list-style-position: inside;
+}
+
+a {
+    color: #17689B;
+}
+
+a:hover {
+    color: #DD9E25;
+}
+
+a:active {
+    color: #C56690;
+}
+
+p.caption {
+    font-size: 12px;
+    color: #17689B;
+    font-style: oblique;
+    margin: 0;
+}
+
+header { 
+    text-align: center;
+    background-color: #013B69;
+    padding: 20px;
+    margin-bottom: 45px;
+}
+
+header .pfp {
+    width: 200px;
+    height: 200px;
+    border: 15px solid #17689B;
+    border-radius: 50%;
+    background-image: url('./../img/Belle-pfp.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.heart {
+background-image: url('./../img/Belle-pfp.webp');
+background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  width: 250px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  /* Creëert de ronde bovenkant van het hart */
+  mask: 
+    radial-gradient(at 70% 31%,#000 29%,#0000 30%), 
+    radial-gradient(at 30% 31%,#000 29%,#0000 30%), 
+    linear-gradient(#000 0 0) bottom/100% 50% no-repeat;
+  /* Creëert de puntige onderkant van het hart */
+  clip-path: polygon(-41% 0, 50% 91%, 141% 0);
+    margin: 0 auto;
+}
+
+
+header .pfp.beast {
+    background-image: url('./../img/beast-adam.jpg');
+    background-position: center center;
+    background-size: cover;
+    border-color: #C6DEF2;
+}
+
+header .pfp.potts {
+    background-image: url('./../img/mrs-potts.webp');
+    background-position: center center;
+    background-size: cover;
+    border-color: #EFBF65;
+}
+
+header .pfp.lumiere {
+    background-image: url('./../img/lumiere.webp');
+    background-position: center center;
+    background-size: cover;
+    border-color: #7e63a5;
+}
+
+header .pfp.cogsworth {
+    background-image: url('./../img/cogsworth.webp');
+    background-position: center center;
+    background-size: cover;
+    border-color: #0a4c82;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 40px;
+  margin: 10px 0 5px 0;
+  color: #C6DEF2;
+}
+
+h2 {
+ font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 20px;
+  margin: 25px 0;
+  color: #013B69;
+
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+main img {
+    max-width: 100%;
+}
+
+main .about.lumiere {
+    width: 800px;
+    height: 500px;
+    background-image: url('./../img/about-lumiere.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+
+footer {
+    background-color: #EFBF65;
+    padding: 40px;
+    text-align: center;
+    margin-top: 60px;
+}
+footer p {
+    color: rgb(142, 96, 10);
+}
+footer .content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer a {
+    color: #af7813;
+}
+
+footer a:hover {
+    color: #17689B;
+}
+
+footer a:active {
+    color: #C56690;
+}
+
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 17px;
+    }
+
+    header .pfp {
+    width: 160px;
+    height: 160px;
+    }
+
+    footer p {
+    font-size: 12px;
+    }
+}
